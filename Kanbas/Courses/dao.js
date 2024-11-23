@@ -17,7 +17,6 @@ export function createCourse(course) {
   }
 
 
-  import Database from "../Database/index.js";
   export function deleteCourse(courseId) {
     const { courses, enrollments } = Database;
     Database.courses = courses.filter((course) => course._id !== courseId);

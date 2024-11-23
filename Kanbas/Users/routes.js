@@ -12,7 +12,7 @@ export default function UserRoutes(app) {
       
       app.post("/api/users/current/courses", createCourse);
 
-      
+      const createUser = (req, res) => { };    
   const deleteUser = (req, res) => { };
   const findAllUsers = (req, res) => { };
   const findUserById = (req, res) => { };

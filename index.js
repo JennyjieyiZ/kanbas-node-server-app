@@ -40,6 +40,6 @@ const sessionOptions = {
   Lab5(app);
   UserRoutes(app);
   CourseRoutes(app);
-  EnrollmentRoutes(app);
+//   EnrollmentRoutes(app);
   ModuleRoutes(app);
   app.listen(4000);
