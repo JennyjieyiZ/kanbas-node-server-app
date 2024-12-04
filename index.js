@@ -10,11 +10,9 @@ import ModuleRoutes from "./Kanbas/Modules/routes.js";
 import AssignmentRoutes from './Kanbas/Assignment/routes.js';
 
 const app = express()
-UserRoutes(app);
 app.use(cors(
     {   
         credentials: true,
-        
         origin: process.env.NETLIFY_URL || "http://localhost:3000",
     
     }
